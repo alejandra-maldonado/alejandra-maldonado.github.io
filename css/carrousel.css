@@ -1,0 +1,63 @@
+.modal-image{
+  display:inline-block;
+  position:relative;
+  overflow:hidden;
+}
+
+.is-arrow-left-modal{
+  margin-top: 50%;
+  margin-left: 0px;
+  padding-left: 10px;
+  position:absolute;
+}
+
+.is-arrow-right-modal{
+  margin-top: 50%;
+  margin-left: 91%;
+  padding-right: 10px;
+  position: absolute;
+}
+
+#en {
+	display: none;
+}
+
+.button_lang {
+	background-color: #444;
+	color: #FFF;
+	padding: 8px 20px;
+	border-radius: 5px;
+
+	-webkit-transition: background-color .3s ease-in-out;
+	-moz-transition: background-color .3s ease-in-out;
+	-o-transition: background-color .3s ease-in-out;
+	-ms-transition: background-color .3s ease-in-out;
+	transition: background-color .3s ease-in-out;
+
+  margin-top: -10px;
+}
+
+.button_lang:hover, .current_lang {
+	background-color: #777;
+	-webkit-transition: background-color .3s ease-in-out;
+	-moz-transition: background-color .3s ease-in-out;
+	-o-transition: background-color .3s ease-in-out;
+	-ms-transition: background-color .3s ease-in-out;
+	transition: background-color .3s ease-in-out;
+}
+
+.ul{
+  margin-top: 20px;
+  float: right;
+}
+
+
+.ul .li {
+	width: auto;
+	display: inline;
+  cursor: pointer;
+}
+
+.language{
+  margin-top: -10px;
+}
