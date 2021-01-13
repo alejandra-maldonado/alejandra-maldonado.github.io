@@ -43,8 +43,10 @@
    <header>
    	<div class="row">
       <ul class="ul">
-        <li class="button_lang li">EN</li>
-        <li class="button_lang li">ES</li>
+        <li id="en_click" class="button_lang li language-text">EN</li>
+        <a href="./index_es.html">
+        	<li id="es_click" class="button_lang li language-text"><a href="./index_es.html">ES</a></li>
+        </a>
       </ul>
    		<div class="top-bar">
    			<a class="menu-toggle" href="#"><span>Menu</span></a>
@@ -503,7 +505,7 @@
    			<!-- portfolio-wrapper -->
 	         <div id="folio-wrapper" class="block-1-2 block-mob-full stack">
 
-	         	<div class="bgrid folio-item">
+	         	<div id="img-modal-01" class="bgrid folio-item">
 	               <div class="item-wrap">
 	               	<img src="images/portfolio/kinedu.jpg" alt="Liberty">
 	                  <a href="#modal-01" class="overlay">
@@ -519,7 +521,7 @@
 	               </div>
 	        		</div> <!-- /folio-item -->
 
-	        		<div class="bgrid folio-item">
+	        		<div id="img-modal-02" class="bgrid folio-item">
 	               <div class="item-wrap">
 	               	<img src="images/portfolio/shutterbug.jpg" alt="Shutterbug">
 	               	<a href="#modal-02" class="overlay">
@@ -606,12 +608,13 @@
                <div class="media modal-image">
                  <button id="left-arrow-1"class="is-arrow-left-modal" style="background-color: hsla(360, 100%, 100%, 0.0);"><i class="far fa-angle-left fa-2x"></i></button>
                  <button id="right-arrow-1" class="is-arrow-right-modal" style="background-color: hsla(360, 100%, 100%, 0.0);"><i class="far fa-angle-right fa-2x" ></i></button>
- 				     		<img id="img-01" src="images/portfolio/modals/m-kinedu-EN-01.jpg" alt="" />
+ 				     		<img id="img-01" src="" alt="" />
+
  				     	</div>
 
 					   <div class="description-box">
-					      <h4>Liberty</h4>
-					      <p>Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit.</p>
+					      <h4 id="title-01"></h4>
+					      <p id="sub-01"></p>
 
 					      <div class="categories">Web Development</div>
 					   </div>
@@ -628,12 +631,12 @@
 				     	<div class="media modal-image">
                 <button id="left-arrow-2"class="is-arrow-left-modal" style="background-color: hsla(360, 100%, 100%, 0.0);"><i class="far fa-angle-left fa-2x"></i></button>
                 <button id="right-arrow-2" class="is-arrow-right-modal" style="background-color: hsla(360, 100%, 100%, 0.0);"><i class="far fa-angle-right fa-2x" ></i></button>
-				     		<img id="img-02" src="images/portfolio/modals/m-shutterbug.jpg" alt="" />
+				     		<img id="img-02" src="" alt="" />
 				     	</div>
 
 					   <div class="description-box">
-					      <h4>Shutterbug</h4>
-					      <p>Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit.</p>
+					      <h4 id="title-02"></h4>
+					      <p id="sub-02"></p>
 
 					      <div class="categories">Web Design</div>
 					   </div>
@@ -645,6 +648,15 @@
 
 				   </div> <!-- /modal-02 -->
 
+
+           <!--  Si quieres agregar más modales, recuerda ponerle los ids (x es el numero de modal que estas cambiando).
+           los cuales son:-->
+           <!-- left-arrow-x -->
+           <!-- img-0x -->
+           <!-- title-0x-->
+           <!-- sub-0x -->
+           <!-- Y agregar un ID a la imagen que le damos click para que apareza el modal -->
+           <!-- Hasta abajo de carrusel.js hay instrucciones para agregar más carruseles. -->
 				   <div id="modal-03" class="popup-modal slider mfp-hide">
 
 				     	<div class="media">

@@ -280,7 +280,6 @@ ul {
 li {
 	display: list-item;
 }
-
 ol, ul {
 	margin-left: 1.7rem;
 }
@@ -315,7 +314,6 @@ dt {
 dd {
 	margin: 0 0 0 2rem;
 }
-
 
 /**
  * tables - (_document-setup.scss)
