@@ -1,0 +1,14 @@
+a.email{ color: #6e6e6e;
+}
+  /* mouse over link */
+  a.email:hover {
+    color: #FF0077;
+  }
+  
+  /* selected link */
+  a.email:visited {
+    color: #ffffff;
+  }
+
+
+}

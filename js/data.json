@@ -1,0 +1,220 @@
+{
+  "EN": {
+    "modal_1": [
+      {
+        "image": "images/perrito.jpg",
+        "title": "Little THIS puppy.",
+        "subtitle": "I love all Dogs"
+      },
+
+      {
+        "image": "images/tenis.jpeg",
+        "title": "SNEAKERS.",
+        "subtitle": "I love this design"
+      }
+    ],
+    "modal_2": [
+      {
+        "image": "images/perrito.jpg",
+        "title": "Little THIS puppy.",
+        "subtitle": "I love all Dogs"
+      },
+
+      {
+        "image": "images/tenis.jpeg",
+        "title": "SNEAKERS.",
+        "subtitle": "I love this design"
+      }
+    ],
+    "modal_3": [
+      {
+        "image": "images/perrito.jpg",
+        "title": "Little THIS puppy.",
+        "subtitle": "I love all Dogs"
+      },
+
+      {
+        "image": "images/tenis.jpeg",
+        "title": "SNEAKERS.",
+        "subtitle": "I love this design"
+      }
+    ],
+    "modal_4": [
+      {
+        "image": "images/perrito.jpg",
+        "title": "Little THIS puppy.",
+        "subtitle": "I love all Dogs"
+      },
+
+      {
+        "image": "images/tenis.jpeg",
+        "title": "SNEAKERS.",
+        "subtitle": "I love this design"
+      },
+
+      {
+        "image": "images/portfolio/salad.jpg",
+        "title": "FRut Salad.",
+        "subtitle": "strawberries and apples"
+      }
+    ],
+    "modal_5": [
+      {
+        "image": "images/perrito.jpg",
+        "title": "Little THIS puppy.",
+        "subtitle": "I love all Dogs"
+      },
+
+      {
+        "image": "images/tenis.jpeg",
+        "title": "SNEAKERS.",
+        "subtitle": "I love this design"
+      }
+    ],
+    "modal_6": [
+      {
+        "image": "images/perrito.jpg",
+        "title": "Little THIS puppy.",
+        "subtitle": "I love all Dogs"
+      },
+
+      {
+        "image": "images/tenis.jpeg",
+        "title": "SNEAKERS.",
+        "subtitle": "I love this design"
+      }
+    ],
+    "modal_7": [
+      {
+        "image": "images/perrito.jpg",
+        "title": "Little THIS puppy.",
+        "subtitle": "I love all Dogs"
+      },
+
+      {
+        "image": "images/tenis.jpeg",
+        "title": "SNEAKERS.",
+        "subtitle": "I love this design"
+      }
+    ],
+    "modal_8": [
+      {
+        "image": "images/perrito.jpg",
+        "title": "Little THIS puppy.",
+        "subtitle": "I love all Dogs"
+      },
+
+      {
+        "image": "images/profile-pic.png",
+        "title": "SNEAKERS.",
+        "subtitle": "I love this design"
+      }
+    ]
+  },
+  "ES": {
+    "modal_1": [
+      {
+        "image": "images/perrito.jpg",
+        "title": "Little THIS puppy.",
+        "subtitle": "I love all Dogs"
+      },
+
+      {
+        "image": "images/tenis.jpeg",
+        "title": "SNEAKERS.",
+        "subtitle": "I love this design"
+      }
+    ],
+    "modal_2": [
+      {
+        "image": "images/perrito.jpg",
+        "title": "Little THIS puppy.",
+        "subtitle": "I love all Dogs"
+      },
+
+      {
+        "image": "images/tenis.jpeg",
+        "title": "SNEAKERS.",
+        "subtitle": "I love this design"
+      }
+    ],
+    "modal_3": [
+      {
+        "image": "images/perrito.jpg",
+        "title": "Little THIS puppy.",
+        "subtitle": "I love all Dogs"
+      },
+
+      {
+        "image": "images/tenis.jpeg",
+        "title": "SNEAKERS.",
+        "subtitle": "I love this design"
+      }
+    ],
+    "modal_4": [
+      {
+        "image": "images/perrito.jpg",
+        "title": "Little THIS puppy.",
+        "subtitle": "I love all Dogs"
+      },
+
+      {
+        "image": "images/tenis.jpeg",
+        "title": "SNEAKERS.",
+        "subtitle": "I love this design"
+      }
+    ],
+    "modal_5": [
+      {
+        "image": "images/perrito.jpg",
+        "title": "Little THIS puppy.",
+        "subtitle": "I love all Dogs"
+      },
+
+      {
+        "image": "images/tenis.jpeg",
+        "title": "SNEAKERS.",
+        "subtitle": "I love this design"
+      }
+    ],
+    "modal_6": [
+      {
+        "image": "images/perrito.jpg",
+        "title": "Little THIS puppy.",
+        "subtitle": "I love all Dogs"
+      },
+
+      {
+        "image": "images/tenis.jpeg",
+        "title": "SNEAKERS.",
+        "subtitle": "I love this design"
+      }
+    ],
+    "modal_7": [
+      {
+        "image": "images/perrito.jpg",
+        "title": "Little THIS puppy.",
+        "subtitle": "I love all Dogs"
+      },
+
+      {
+        "image": "images/tenis.jpeg",
+        "title": "SNEAKERS.",
+        "subtitle": "I love this design"
+      }
+    ],
+    "modal_8": [
+      {
+        "image": "images/perrito.jpg",
+        "title": "Little THIS puppy.",
+        "subtitle": "I love all Dogs"
+      },
+
+      {
+        "image": "images/tenis.jpeg",
+        "title": "SNEAKERS.",
+        "subtitle": "I love this design"
+      }
+    ]
+  }
+}

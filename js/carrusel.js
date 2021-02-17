@@ -1,25 +1,32 @@
-function changeModal_1(){
-  var position = 0; //Esta variable nos dice en que imagen,titulo y subitutlo estamos.
-
-  var modal = [
-    {
-      image: 'images/perrito.jpg',
-      title: 'Little THIS puppy.',
-      subtitle: 'I love all Dogs'
-    },
-
-    {
-      image: 'images/tenis.jpeg',
-      title: 'SNEAKERS.',
-      subtitle: 'I love this design'
+$(function() {
+  $.getJSON('js/data.json', function(data) {
+    if(lang == "EN"){
+      data = data.EN
+      changeModal_1(data.modal_1);
+      changeModal_2(data.modal_2);
+      changeModal_3(data.modal_3);
+      changeModal_4(data.modal_4);
+      changeModal_5(data.modal_5);
+      changeModal_6(data.modal_6);
+      changeModal_7(data.modal_7);
+      changeModal_8(data.modal_8);
     }
-  // AGREGAS ESTO QUE ESTA ENTRE LLAVES Y LE CAMBIAS LA DIRECCION DE IMAGEN, TITULO Y SUBTITULO... Y LA COMA!
-    // {
-    //   image: 'images/tenis.jpeg',
-    //   title: 'SNEAKERS.',
-    //   subtitle: 'I love this design'
-    // }
-  ]
+    if(lang == "ES"){
+      data = data.ES
+      changeModal_1(data.modal_1);
+      changeModal_2(data.modal_2);
+      changeModal_3(data.modal_3);
+      changeModal_4(data.modal_4);
+      changeModal_5(data.modal_5);
+      changeModal_6(data.modal_6);
+      changeModal_7(data.modal_7);
+      changeModal_8(data.modal_8);
+    }
+  });
+})
+
+function changeModal_1(modal){
+  var position = 0; //Esta variable nos dice en que imagen,titulo y subitutlo estamos.
 
 // Hace que el carrusel se active desde que damos click (sin landing)
   $('#img-modal-01').click(function(){
@@ -85,38 +92,8 @@ function changeModal_1(){
   });
 };
 
-changeModal_1();
-
-function changeModal_2(){
+function changeModal_2(modal){
   var position = 0; //Esta variable nos dice en que imagen,titulo y subitutlo estamos.
-
-  var modal = [
-    {
-      image: 'images/intro-bg.jpg',
-      title: 'Intro image',
-      subtitle: 'Subtitle de intro'
-    },
-
-    {
-      image: 'images/perrito.jpg',
-      title: 'Little puppy.',
-      subtitle: 'I love Dogs'
-    },
-
-    {
-      image: 'images/tenis.jpeg',
-      title: 'SNEAKERS.',
-      subtitle: 'I love this design'
-    },
-
-   //PON LAS COMAAAS!!!!
-  // AGREGAS ESTO QUE ESTA ENTRE LLAVES Y LE CAMBIAS LA DIRECCION DE IMAGEN, TITULO Y SUBTITULO... Y LA COMA!
-    // {
-    //   image: 'images/tenis.jpeg',
-    //   title: 'SNEAKERS.',
-    //   subtitle: 'I love this design'
-    // }
-  ]
 
   $('#img-modal-02').click(function(){
     //Change image
@@ -180,49 +157,392 @@ function changeModal_2(){
   });
 };
 
-changeModal_2();
+function changeModal_3(modal){
+  var position = 0; //Esta variable nos dice en que imagen,titulo y subitutlo estamos.
 
-/*
-  Si quieres agregar más carruseles a los siguientes modales:
-  1. Copia y pega la funcion changeModal_1(), esta nueva funcion pegada es con la que vamos a trabajar
-  (puede ser la 2 tambien, no pasa nada, son "iguales")
+  $('#img-modal-03').click(function(){
+    //Change image
+    $("#img-03").attr("src",modal[position].image)
 
-    1.1 Copia y pega desde donde iniciamos la funcion hasta donde la cerramos y la mandamos a llamar, es decir:
+    //Change text
+    $("#title-03").text(modal[position].title)
 
-          function changeModal_1(){ <-- aqui inicia
-            ...
-          }                         <-- aqui se cierra
-          changeModal_1();          <-- Aqui la mandamos a llamar
+    //Change subtitle
+    $("#sub-03").text(modal[position].subtitle)
+  })
 
-    1.2 Cambia el nombre de la funcion por el modal que vayamos. Ej:
+	$("#img-03").animate({opacity: '1'},750);
 
-          function changeModal_x(){
-            ...
-          }
-          changeModal_x();
+  $('#right-arrow-3').click(function(){
+    position += 1;
+    if (position >= modal.length) {
+      position = 0;
+    }
+    //Change image
+    $("#img-03").animate({opacity: '0'},500,function(){
+      $("#img-03").attr("src",modal[position].image)
+    });
+    $("#img-03").animate({opacity: '1'},500);
 
-  2. Cambia el objeto con nombre de variable "modal" por las imagenes, titulos y subitulos, es decir:
+    //Change text
+    $("#title-03").animate({opacity: '0'},500,function(){
+      $("#title-03").text(modal[position].title)
+    });
+    $("#title-03").animate({opacity: '1'},500);
 
-      var modal = [
-        ...
-      ]
+    //Change subtitle
+    $("#sub-03").animate({opacity: '0'},500,function(){
+      $("#sub-03").text(modal[position].subtitle)
+    });
+    $("#sub-03").animate({opacity: '1'},500);
+  });
 
-    2.1 Cambia todos los ids por el numero de modal que vayamos.
-      2.1.1 Los ids son los que tieneen #. Ej:
+  $('#left-arrow-3').click(function(){
+    position -= 1;
+    if (position < 0) {
+      position = modal.length-1
+    }
+    //change image
+    $("#img-03").animate({opacity: '0'},500,function(){
+      $("#img-03").attr("src",modal[position].image)
+    });
+    $("#img-03").animate({opacity: '1'},500);
 
-            $("#img-0x").animate({opacity: '1'},750);
+    //Change text
+    $("#title-03").animate({opacity: '0'},500,function(){
+      $("#title-03").text(modal[position].title)
+    });
+    $("#title-03").animate({opacity: '1'},500);
 
-            $('#right-arrow-x').click(function(){
-              position += 1;
-              if (position >= modal.length) {
-                position = 0;
-              }
-              //Change image
-              $("#img-0x").animate({opacity: '0'},500,function(){
-                $("#img-0x").attr("src",modal[position].image)
-              });
-              $("#img-0x").animate({opacity: '1'},500);
+    //Change subtitle
+    $("#sub-03").animate({opacity: '0'},500,function(){
+      $("#sub-03").text(modal[position].subtitle)
+    });
+    $("#sub-03").animate({opacity: '1'},500);
+  });
+};
 
-  Y listooo!
+function changeModal_4(modal){
+  var position = 0; //Esta variable nos dice en que imagen,titulo y subitutlo estamos.
 
-*/
+  $('#img-modal-04').click(function(){
+    //Change image
+    $("#img-04").attr("src",modal[position].image)
+
+    //Change text
+    $("#title-04").text(modal[position].title)
+
+    //Change subtitle
+    $("#sub-04").text(modal[position].subtitle)
+  })
+
+	$("#img-04").animate({opacity: '1'},750);
+
+  $('#right-arrow-4').click(function(){
+    position += 1;
+    if (position >= modal.length) {
+      position = 0;
+    }
+    //Change image
+    $("#img-04").animate({opacity: '0'},500,function(){
+      $("#img-04").attr("src",modal[position].image)
+    });
+    $("#img-04").animate({opacity: '1'},500);
+
+    //Change text
+    $("#title-04").animate({opacity: '0'},500,function(){
+      $("#title-04").text(modal[position].title)
+    });
+    $("#title-04").animate({opacity: '1'},500);
+
+    //Change subtitle
+    $("#sub-04").animate({opacity: '0'},500,function(){
+      $("#sub-04").text(modal[position].subtitle)
+    });
+    $("#sub-04").animate({opacity: '1'},500);
+  });
+
+  $('#left-arrow-4').click(function(){
+    position -= 1;
+    if (position < 0) {
+      position = modal.length-1
+    }
+    //change image
+    $("#img-04").animate({opacity: '0'},500,function(){
+      $("#img-04").attr("src",modal[position].image)
+    });
+    $("#img-04").animate({opacity: '1'},500);
+
+    //Change text
+    $("#title-04").animate({opacity: '0'},500,function(){
+      $("#title-04").text(modal[position].title)
+    });
+    $("#title-04").animate({opacity: '1'},500);
+
+    //Change subtitle
+    $("#sub-04").animate({opacity: '0'},500,function(){
+      $("#sub-04").text(modal[position].subtitle)
+    });
+    $("#sub-04").animate({opacity: '1'},500);
+  });
+};
+
+function changeModal_5(modal){
+  var position = 0; //Esta variable nos dice en que imagen,titulo y subitutlo estamos.
+
+  $('#img-modal-05').click(function(){
+    //Change image
+    $("#img-05").attr("src",modal[position].image)
+
+    //Change text
+    $("#title-05").text(modal[position].title)
+
+    //Change subtitle
+    $("#sub-05").text(modal[position].subtitle)
+  })
+
+	$("#img-05").animate({opacity: '1'},750);
+
+  $('#right-arrow-5').click(function(){
+    position += 1;
+    if (position >= modal.length) {
+      position = 0;
+    }
+    //Change image
+    $("#img-05").animate({opacity: '0'},500,function(){
+      $("#img-05").attr("src",modal[position].image)
+    });
+    $("#img-05").animate({opacity: '1'},500);
+
+    //Change text
+    $("#title-05").animate({opacity: '0'},500,function(){
+      $("#title-05").text(modal[position].title)
+    });
+    $("#title-05").animate({opacity: '1'},500);
+
+    //Change subtitle
+    $("#sub-05").animate({opacity: '0'},500,function(){
+      $("#sub-05").text(modal[position].subtitle)
+    });
+    $("#sub-05").animate({opacity: '1'},500);
+  });
+
+  $('#left-arrow-5').click(function(){
+    position -= 1;
+    if (position < 0) {
+      position = modal.length-1
+    }
+    //change image
+    $("#img-05").animate({opacity: '0'},500,function(){
+      $("#img-05").attr("src",modal[position].image)
+    });
+    $("#img-05").animate({opacity: '1'},500);
+
+    //Change text
+    $("#title-05").animate({opacity: '0'},500,function(){
+      $("#title-05").text(modal[position].title)
+    });
+    $("#title-05").animate({opacity: '1'},500);
+
+    //Change subtitle
+    $("#sub-05").animate({opacity: '0'},500,function(){
+      $("#sub-05").text(modal[position].subtitle)
+    });
+    $("#sub-05").animate({opacity: '1'},500);
+  });
+};
+
+function changeModal_6(modal){
+  var position = 0; //Esta variable nos dice en que imagen,titulo y subitutlo estamos.
+
+  $('#img-modal-06').click(function(){
+    //Change image
+    $("#img-06").attr("src",modal[position].image)
+
+    //Change text
+    $("#title-06").text(modal[position].title)
+
+    //Change subtitle
+    $("#sub-06").text(modal[position].subtitle)
+  })
+
+	$("#img-06").animate({opacity: '1'},750);
+
+  $('#right-arrow-6').click(function(){
+    position += 1;
+    if (position >= modal.length) {
+      position = 0;
+    }
+    //Change image
+    $("#img-06").animate({opacity: '0'},500,function(){
+      $("#img-06").attr("src",modal[position].image)
+    });
+    $("#img-06").animate({opacity: '1'},500);
+
+    //Change text
+    $("#title-06").animate({opacity: '0'},500,function(){
+      $("#title-06").text(modal[position].title)
+    });
+    $("#title-06").animate({opacity: '1'},500);
+
+    //Change subtitle
+    $("#sub-06").animate({opacity: '0'},500,function(){
+      $("#sub-06").text(modal[position].subtitle)
+    });
+    $("#sub-06").animate({opacity: '1'},500);
+  });
+
+  $('#left-arrow-6').click(function(){
+    position -= 1;
+    if (position < 0) {
+      position = modal.length-1
+    }
+    //change image
+    $("#img-06").animate({opacity: '0'},500,function(){
+      $("#img-06").attr("src",modal[position].image)
+    });
+    $("#img-06").animate({opacity: '1'},500);
+
+    //Change text
+    $("#title-06").animate({opacity: '0'},500,function(){
+      $("#title-06").text(modal[position].title)
+    });
+    $("#title-06").animate({opacity: '1'},500);
+
+    //Change subtitle
+    $("#sub-06").animate({opacity: '0'},500,function(){
+      $("#sub-06").text(modal[position].subtitle)
+    });
+    $("#sub-06").animate({opacity: '1'},500);
+  });
+};
+
+function changeModal_7(modal){
+  var position = 0; //Esta variable nos dice en que imagen,titulo y subitutlo estamos.
+
+  $('#img-modal-07').click(function(){
+    //Change image
+    $("#img-07").attr("src",modal[position].image)
+
+    //Change text
+    $("#title-07").text(modal[position].title)
+
+    //Change subtitle
+    $("#sub-07").text(modal[position].subtitle)
+  })
+
+	$("#img-07").animate({opacity: '1'},750);
+
+  $('#right-arrow-7').click(function(){
+    position += 1;
+    if (position >= modal.length) {
+      position = 0;
+    }
+    //Change image
+    $("#img-07").animate({opacity: '0'},500,function(){
+      $("#img-07").attr("src",modal[position].image)
+    });
+    $("#img-07").animate({opacity: '1'},500);
+
+    //Change text
+    $("#title-07").animate({opacity: '0'},500,function(){
+      $("#title-07").text(modal[position].title)
+    });
+    $("#title-07").animate({opacity: '1'},500);
+
+    //Change subtitle
+    $("#sub-07").animate({opacity: '0'},500,function(){
+      $("#sub-07").text(modal[position].subtitle)
+    });
+    $("#sub-07").animate({opacity: '1'},500);
+  });
+
+  $('#left-arrow-7').click(function(){
+    position -= 1;
+    if (position < 0) {
+      position = modal.length-1
+    }
+    //change image
+    $("#img-07").animate({opacity: '0'},500,function(){
+      $("#img-07").attr("src",modal[position].image)
+    });
+    $("#img-07").animate({opacity: '1'},500);
+
+    //Change text
+    $("#title-07").animate({opacity: '0'},500,function(){
+      $("#title-07").text(modal[position].title)
+    });
+    $("#title-07").animate({opacity: '1'},500);
+
+    //Change subtitle
+    $("#sub-07").animate({opacity: '0'},500,function(){
+      $("#sub-07").text(modal[position].subtitle)
+    });
+    $("#sub-07").animate({opacity: '1'},500);
+  });
+};
+
+function changeModal_8(modal){
+  var position = 0; //Esta variable nos dice en que imagen,titulo y subitutlo estamos.
+
+  $('#img-modal-08').click(function(){
+    //Change image
+    $("#img-08").attr("src",modal[position].image)
+
+    //Change text
+    $("#title-08").text(modal[position].title)
+
+    //Change subtitle
+    $("#sub-08").text(modal[position].subtitle)
+  })
+
+	$("#img-08").animate({opacity: '1'},750);
+
+  $('#right-arrow-8').click(function(){
+    position += 1;
+    if (position >= modal.length) {
+      position = 0;
+    }
+    //Change image
+    $("#img-08").animate({opacity: '0'},500,function(){
+      $("#img-08").attr("src",modal[position].image)
+    });
+    $("#img-08").animate({opacity: '1'},500);
+
+    //Change text
+    $("#title-08").animate({opacity: '0'},500,function(){
+      $("#title-08").text(modal[position].title)
+    });
+    $("#title-08").animate({opacity: '1'},500);
+
+    //Change subtitle
+    $("#sub-08").animate({opacity: '0'},500,function(){
+      $("#sub-08").text(modal[position].subtitle)
+    });
+    $("#sub-08").animate({opacity: '1'},500);
+  });
+
+  $('#left-arrow-8').click(function(){
+    position -= 1;
+    if (position < 0) {
+      position = modal.length-1
+    }
+    //change image
+    $("#img-08").animate({opacity: '0'},500,function(){
+      $("#img-08").attr("src",modal[position].image)
+    });
+    $("#img-08").animate({opacity: '1'},500);
+
+    //Change text
+    $("#title-08").animate({opacity: '0'},500,function(){
+      $("#title-08").text(modal[position].title)
+    });
+    $("#title-08").animate({opacity: '1'},500);
+
+    //Change subtitle
+    $("#sub-08").animate({opacity: '0'},500,function(){
+      $("#sub-08").text(modal[position].subtitle)
+    });
+    $("#sub-08").animate({opacity: '1'},500);
+  });
+};
