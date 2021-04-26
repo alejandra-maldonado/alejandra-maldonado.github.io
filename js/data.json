@@ -109,7 +109,36 @@
         "title": "SNEAKERS.",
         "subtitle": "I love this design"
       }
+    ],
+    "modal_9": [
+      {
+        "image": "images/perrito.jpg",
+        "title": "Little THIS puppy.",
+        "subtitle": "I love all Dogs"
+      },
+
+      {
+        "image": "images/profile-pic.png",
+        "title": "SNEAKERS.",
+        "subtitle": "I love this design"
+      }
+    ],
+    "modal_10": [
+      {
+        "image": "images/perrito.jpg",
+        "title": "Little THIS puppy.",
+        "subtitle": "I love all Dogs"
+      },
+
+      {
+        "image": "images/profile-pic.png",
+        "title": "SNEAKERS.",
+        "subtitle": "I love this design"
+      }
     ]
+
+
+    
   },
   "ES": {
     "modal_1": [
@@ -204,6 +233,32 @@
       }
     ],
     "modal_8": [
+      {
+        "image": "images/perrito.jpg",
+        "title": "Little THIS puppy.",
+        "subtitle": "I love all Dogs"
+      },
+
+      {
+        "image": "images/tenis.jpeg",
+        "title": "SNEAKERS.",
+        "subtitle": "I love this design"
+      }
+    ],
+    "modal_9": [
+      {
+        "image": "images/perrito.jpg",
+        "title": "Little THIS puppy.",
+        "subtitle": "I love all Dogs"
+      },
+
+      {
+        "image": "images/tenis.jpeg",
+        "title": "SNEAKERS.",
+        "subtitle": "I love this design"
+      }
+    ],
+    "modal_10": [
       {
         "image": "images/perrito.jpg",
         "title": "Little THIS puppy.",

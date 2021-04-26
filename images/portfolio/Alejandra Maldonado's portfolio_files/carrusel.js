@@ -10,8 +10,6 @@ $(function() {
       changeModal_6(data.modal_6);
       changeModal_7(data.modal_7);
       changeModal_8(data.modal_8);
-      changeModal_9(data.modal_9);
-      changeModal_10(data.modal_10);
     }
     if(lang == "ES"){
       data = data.ES
@@ -23,8 +21,6 @@ $(function() {
       changeModal_6(data.modal_6);
       changeModal_7(data.modal_7);
       changeModal_8(data.modal_8);
-      changeModal_9(data.modal_9);
-      changeModal_10(data.modal_10);
     }
   });
 })
@@ -548,135 +544,5 @@ function changeModal_8(modal){
       $("#sub-08").text(modal[position].subtitle)
     });
     $("#sub-08").animate({opacity: '1'},500);
-  });
-};
-
-function changeModal_9(modal){
-  var position = 0; //Esta variable nos dice en que imagen,titulo y subitutlo estamos.
-
-  $('#img-modal-09').click(function(){
-    //Change image
-    $("#img-09").attr("src",modal[position].image)
-
-    //Change text
-    $("#title-09").text(modal[position].title)
-
-    //Change subtitle
-    $("#sub-09").text(modal[position].subtitle)
-  })
-
-	$("#img-09").animate({opacity: '1'},750);
-
-  $('#right-arrow-9').click(function(){
-    position += 1;
-    if (position >= modal.length) {
-      position = 0;
-    }
-    //Change image
-    $("#img-09").animate({opacity: '0'},500,function(){
-      $("#img-09").attr("src",modal[position].image)
-    });
-    $("#img-09").animate({opacity: '1'},500);
-
-    //Change text
-    $("#title-09").animate({opacity: '0'},500,function(){
-      $("#title-09").text(modal[position].title)
-    });
-    $("#title-09").animate({opacity: '1'},500);
-
-    //Change subtitle
-    $("#sub-09").animate({opacity: '0'},500,function(){
-      $("#sub-09").text(modal[position].subtitle)
-    });
-    $("#sub-09").animate({opacity: '1'},500);
-  });
-
-  $('#left-arrow-9').click(function(){
-    position -= 1;
-    if (position < 0) {
-      position = modal.length-1
-    }
-    //change image
-    $("#img-09").animate({opacity: '0'},500,function(){
-      $("#img-09").attr("src",modal[position].image)
-    });
-    $("#img-09").animate({opacity: '1'},500);
-
-    //Change text
-    $("#title-09").animate({opacity: '0'},500,function(){
-      $("#title-09").text(modal[position].title)
-    });
-    $("#title-09").animate({opacity: '1'},500);
-
-    //Change subtitle
-    $("#sub-09").animate({opacity: '0'},500,function(){
-      $("#sub-09").text(modal[position].subtitle)
-    });
-    $("#sub-09").animate({opacity: '1'},500);
-  });
-};
-
-function changeModal_10(modal){
-  var position = 0; //Esta variable nos dice en que imagen,titulo y subitutlo estamos.
-
-  $('#img-modal-10').click(function(){
-    //Change image
-    $("#img-10").attr("src",modal[position].image)
-
-    //Change text
-    $("#title-10").text(modal[position].title)
-
-    //Change subtitle
-    $("#sub-10").text(modal[position].subtitle)
-  })
-
-	$("#img-10").animate({opacity: '1'},750);
-
-  $('#right-arrow-10').click(function(){
-    position += 1;
-    if (position >= modal.length) {
-      position = 0;
-    }
-    //Change image
-    $("#img-10").animate({opacity: '0'},500,function(){
-      $("#img-10").attr("src",modal[position].image)
-    });
-    $("#img-10").animate({opacity: '1'},500);
-
-    //Change text
-    $("#title-10").animate({opacity: '0'},500,function(){
-      $("#title-10").text(modal[position].title)
-    });
-    $("#title-10").animate({opacity: '1'},500);
-
-    //Change subtitle
-    $("#sub-10").animate({opacity: '0'},500,function(){
-      $("#sub-10").text(modal[position].subtitle)
-    });
-    $("#sub-10").animate({opacity: '1'},500);
-  });
-
-  $('#left-arrow-10').click(function(){
-    position -= 1;
-    if (position < 0) {
-      position = modal.length-1
-    }
-    //change image
-    $("#img-10").animate({opacity: '0'},500,function(){
-      $("#img-10").attr("src",modal[position].image)
-    });
-    $("#img-10").animate({opacity: '1'},500);
-
-    //Change text
-    $("#title-10").animate({opacity: '0'},500,function(){
-      $("#title-10").text(modal[position].title)
-    });
-    $("#title-10").animate({opacity: '1'},500);
-
-    //Change subtitle
-    $("#sub-10").animate({opacity: '0'},500,function(){
-      $("#sub-10").text(modal[position].subtitle)
-    });
-    $("#sub-10").animate({opacity: '1'},500);
   });
 };
