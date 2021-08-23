@@ -36,6 +36,7 @@ function changeModal_1(modal){
   $('#img-modal-01').click(function(){
     //add image
     $("#img-01").attr("src",modal[position].image)
+    $("#view-img-01").attr("href",modal[position].image)
 
     //add titulo
     $("#title-01").text(modal[position].title)
@@ -54,8 +55,9 @@ function changeModal_1(modal){
     }
     //Change image
     $("#img-01").animate({opacity: '0'},500,function(){
-      $("#img-01").attr("src",modal[position].image)
+      $("#img-01").attr("src",modal[position].image);
     });
+    $("#view-img-01").attr("href",modal[position].image);
     $("#img-01").animate({opacity: '1'},500);
 
     //Change text
@@ -78,8 +80,9 @@ function changeModal_1(modal){
     }
     //change image
     $("#img-01").animate({opacity: '0'},500,function(){
-      $("#img-01").attr("src",modal[position].image)
+      $("#img-01").attr("src",modal[position].image);
     });
+    $("#view-img-01").attr("href",modal[position].image);
     $("#img-01").animate({opacity: '1'},500);
 
     //Change text
@@ -102,6 +105,7 @@ function changeModal_2(modal){
   $('#img-modal-02').click(function(){
     //Change image
     $("#img-02").attr("src",modal[position].image)
+    $("#view-img-02").attr("href",modal[position].image)
 
     //Change text
     $("#title-02").text(modal[position].title)
@@ -119,8 +123,9 @@ function changeModal_2(modal){
     }
     //Change image
     $("#img-02").animate({opacity: '0'},500,function(){
-      $("#img-02").attr("src",modal[position].image)
+      $("#img-02").attr("src",modal[position].image);
     });
+    $("#view-img-02").attr("href",modal[position].image);
     $("#img-02").animate({opacity: '1'},500);
 
     //Change text
@@ -143,8 +148,9 @@ function changeModal_2(modal){
     }
     //change image
     $("#img-02").animate({opacity: '0'},500,function(){
-      $("#img-02").attr("src",modal[position].image)
+      $("#img-02").attr("src",modal[position].image);
     });
+    $("#view-img-02").attr("href",modal[position].image);
     $("#img-02").animate({opacity: '1'},500);
 
     //Change text
@@ -167,6 +173,7 @@ function changeModal_3(modal){
   $('#img-modal-03').click(function(){
     //Change image
     $("#img-03").attr("src",modal[position].image)
+    $("#view-img-03").attr("href",modal[position].image)
 
     //Change text
     $("#title-03").text(modal[position].title)
@@ -184,8 +191,9 @@ function changeModal_3(modal){
     }
     //Change image
     $("#img-03").animate({opacity: '0'},500,function(){
-      $("#img-03").attr("src",modal[position].image)
+      $("#img-03").attr("src",modal[position].image);
     });
+    $("#view-img-03").attr("href",modal[position].image);
     $("#img-03").animate({opacity: '1'},500);
 
     //Change text
@@ -208,8 +216,9 @@ function changeModal_3(modal){
     }
     //change image
     $("#img-03").animate({opacity: '0'},500,function(){
-      $("#img-03").attr("src",modal[position].image)
+      $("#img-03").attr("src",modal[position].image);
     });
+    $("#view-img-03").attr("href",modal[position].image);
     $("#img-03").animate({opacity: '1'},500);
 
     //Change text
@@ -232,12 +241,15 @@ function changeModal_4(modal){
   $('#img-modal-04').click(function(){
     //Change image
     $("#img-04").attr("src",modal[position].image)
+    $("#view-img-04").attr("href",modal[position].image)
+
 
     //Change text
     $("#title-04").text(modal[position].title)
 
     //Change subtitle
     $("#sub-04").text(modal[position].subtitle)
+
   })
 
 	$("#img-04").animate({opacity: '1'},750);
@@ -249,8 +261,9 @@ function changeModal_4(modal){
     }
     //Change image
     $("#img-04").animate({opacity: '0'},500,function(){
-      $("#img-04").attr("src",modal[position].image)
+      $("#img-04").attr("src",modal[position].image);
     });
+    $("#view-img-04").attr("href",modal[position].image);
     $("#img-04").animate({opacity: '1'},500);
 
     //Change text
@@ -264,6 +277,7 @@ function changeModal_4(modal){
       $("#sub-04").text(modal[position].subtitle)
     });
     $("#sub-04").animate({opacity: '1'},500);
+
   });
 
   $('#left-arrow-4').click(function(){
@@ -273,8 +287,9 @@ function changeModal_4(modal){
     }
     //change image
     $("#img-04").animate({opacity: '0'},500,function(){
-      $("#img-04").attr("src",modal[position].image)
+      $("#img-04").attr("src",modal[position].image);
     });
+    $("#view-img-04").attr("href",modal[position].image);
     $("#img-04").animate({opacity: '1'},500);
 
     //Change text
@@ -288,6 +303,7 @@ function changeModal_4(modal){
       $("#sub-04").text(modal[position].subtitle)
     });
     $("#sub-04").animate({opacity: '1'},500);
+
   });
 };
 
@@ -297,6 +313,7 @@ function changeModal_5(modal){
   $('#img-modal-05').click(function(){
     //Change image
     $("#img-05").attr("src",modal[position].image)
+    $("#view-img-05").attr("href",modal[position].image)
 
     //Change text
     $("#title-05").text(modal[position].title)
@@ -314,8 +331,9 @@ function changeModal_5(modal){
     }
     //Change image
     $("#img-05").animate({opacity: '0'},500,function(){
-      $("#img-05").attr("src",modal[position].image)
+      $("#img-05").attr("src",modal[position].image);
     });
+    $("#view-img-05").attr("href",modal[position].image);
     $("#img-05").animate({opacity: '1'},500);
 
     //Change text
@@ -338,8 +356,9 @@ function changeModal_5(modal){
     }
     //change image
     $("#img-05").animate({opacity: '0'},500,function(){
-      $("#img-05").attr("src",modal[position].image)
+      $("#img-05").attr("src",modal[position].image);
     });
+    $("#view-img-05").attr("href",modal[position].image);
     $("#img-05").animate({opacity: '1'},500);
 
     //Change text
@@ -362,6 +381,7 @@ function changeModal_6(modal){
   $('#img-modal-06').click(function(){
     //Change image
     $("#img-06").attr("src",modal[position].image)
+    $("#view-img-06").attr("href",modal[position].image)
 
     //Change text
     $("#title-06").text(modal[position].title)
@@ -379,8 +399,9 @@ function changeModal_6(modal){
     }
     //Change image
     $("#img-06").animate({opacity: '0'},500,function(){
-      $("#img-06").attr("src",modal[position].image)
+      $("#img-06").attr("src",modal[position].image);
     });
+    $("#view-img-06").attr("href",modal[position].image);
     $("#img-06").animate({opacity: '1'},500);
 
     //Change text
@@ -403,8 +424,9 @@ function changeModal_6(modal){
     }
     //change image
     $("#img-06").animate({opacity: '0'},500,function(){
-      $("#img-06").attr("src",modal[position].image)
+      $("#img-06").attr("src",modal[position].image);
     });
+    $("#view-img-06").attr("href",modal[position].image);
     $("#img-06").animate({opacity: '1'},500);
 
     //Change text
@@ -427,6 +449,7 @@ function changeModal_7(modal){
   $('#img-modal-07').click(function(){
     //Change image
     $("#img-07").attr("src",modal[position].image)
+    $("#view-img-07").attr("href",modal[position].image)
 
     //Change text
     $("#title-07").text(modal[position].title)
@@ -444,8 +467,9 @@ function changeModal_7(modal){
     }
     //Change image
     $("#img-07").animate({opacity: '0'},500,function(){
-      $("#img-07").attr("src",modal[position].image)
+      $("#img-07").attr("src",modal[position].image);
     });
+    $("#view-img-07").attr("href",modal[position].image);
     $("#img-07").animate({opacity: '1'},500);
 
     //Change text
@@ -468,8 +492,9 @@ function changeModal_7(modal){
     }
     //change image
     $("#img-07").animate({opacity: '0'},500,function(){
-      $("#img-07").attr("src",modal[position].image)
+      $("#img-07").attr("src",modal[position].image);
     });
+    $("#view-img-07").attr("href",modal[position].image);
     $("#img-07").animate({opacity: '1'},500);
 
     //Change text
@@ -492,6 +517,7 @@ function changeModal_8(modal){
   $('#img-modal-08').click(function(){
     //Change image
     $("#img-08").attr("src",modal[position].image)
+    $("#view-img-08").attr("href",modal[position].image)
 
     //Change text
     $("#title-08").text(modal[position].title)
@@ -509,8 +535,9 @@ function changeModal_8(modal){
     }
     //Change image
     $("#img-08").animate({opacity: '0'},500,function(){
-      $("#img-08").attr("src",modal[position].image)
+      $("#img-08").attr("src",modal[position].image);
     });
+    $("#view-img-08").attr("href",modal[position].image);
     $("#img-08").animate({opacity: '1'},500);
 
     //Change text
@@ -533,8 +560,9 @@ function changeModal_8(modal){
     }
     //change image
     $("#img-08").animate({opacity: '0'},500,function(){
-      $("#img-08").attr("src",modal[position].image)
+      $("#img-08").attr("src",modal[position].image);
     });
+    $("#view-img-08").attr("href",modal[position].image);
     $("#img-08").animate({opacity: '1'},500);
 
     //Change text
@@ -557,6 +585,7 @@ function changeModal_9(modal){
   $('#img-modal-09').click(function(){
     //Change image
     $("#img-09").attr("src",modal[position].image)
+    $("#view-img-09").attr("href",modal[position].image)
 
     //Change text
     $("#title-09").text(modal[position].title)
@@ -574,8 +603,9 @@ function changeModal_9(modal){
     }
     //Change image
     $("#img-09").animate({opacity: '0'},500,function(){
-      $("#img-09").attr("src",modal[position].image)
+      $("#img-09").attr("src",modal[position].image);
     });
+    $("#view-img-09").attr("href",modal[position].image);
     $("#img-09").animate({opacity: '1'},500);
 
     //Change text
@@ -598,8 +628,9 @@ function changeModal_9(modal){
     }
     //change image
     $("#img-09").animate({opacity: '0'},500,function(){
-      $("#img-09").attr("src",modal[position].image)
+      $("#img-09").attr("src",modal[position].image);
     });
+    $("#view-img-09").attr("href",modal[position].image);
     $("#img-09").animate({opacity: '1'},500);
 
     //Change text
@@ -622,6 +653,7 @@ function changeModal_10(modal){
   $('#img-modal-10').click(function(){
     //Change image
     $("#img-10").attr("src",modal[position].image)
+    $("#view-img-10").attr("href",modal[position].image)
 
     //Change text
     $("#title-10").text(modal[position].title)
@@ -639,8 +671,9 @@ function changeModal_10(modal){
     }
     //Change image
     $("#img-10").animate({opacity: '0'},500,function(){
-      $("#img-10").attr("src",modal[position].image)
+      $("#img-10").attr("src",modal[position].image);
     });
+    $("#view-img-10").attr("href",modal[position].image);
     $("#img-10").animate({opacity: '1'},500);
 
     //Change text
@@ -663,8 +696,9 @@ function changeModal_10(modal){
     }
     //change image
     $("#img-10").animate({opacity: '0'},500,function(){
-      $("#img-10").attr("src",modal[position].image)
+      $("#img-10").attr("src",modal[position].image);
     });
+    $("#view-img-10").attr("href",modal[position].image);
     $("#img-10").animate({opacity: '1'},500);
 
     //Change text
