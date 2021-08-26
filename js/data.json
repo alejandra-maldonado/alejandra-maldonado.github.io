@@ -185,196 +185,239 @@
       {
         "image": "images/modal04/EN/m04-02.png",
         "title": "Social media",
-        "subtitle": "Subtitle"
+        "subtitle": "I designed multiple images for social media. I created these images focused on the main benefits."
       },
-
       {
         "image": "images/modal04/EN/m04-03.png",
-        "title": "Title.",
-        "subtitle": "Subtitle"
+        "title": "Social media",
+        "subtitle": "Example"
+      },
+      {
+        "image": "images/modal04/EN/m04-04.png",
+        "title": "Robie login",
+        "subtitle": "We created access through Google or email to login"
+      },
+      {
+        "image": "images/modal04/EN/m04-05.png",
+        "title": "New search",
+        "subtitle": "View when user searches for a new property."
+      },
+      {
+        "image": "images/modal04/EN/m04-06.png",
+        "title": "My searches",
+        "subtitle": "View where user can access all active property searches"
+      },
+      {
+        "image": "images/modal04/EN/m04-07.png",
+        "title": "My matches",
+        "subtitle": "Types of matches for a property search with other users."
+      },
+      {
+        "image": "images/modal04/EN/m04-08.jpg",
+        "title": "New property",
+        "subtitle": "Characteristics of a property"
+      },
+      {
+        "image": "images/modal04/EN/m04-09.png",
+        "title": "My properties",
+        "subtitle": "Options for a property"
+      },
+      {
+        "image": "images/modal04/EN/m04-10.png",
+        "title": "User profile",
+        "subtitle": "View when user can look contact's profile."
+      },
+      {
+        "image": "images/modal04/EN/m04-11.png",
+        "title": "Notification section",
+        "subtitle": "We created a section where user can turn on or off notifications divided by sections."
       }
     ],
     "modal_5": [
       {
         "image": "images/modal05/EN/m05-01.png",
-        "title": "Title.",
-        "subtitle": "Subtitle"
+        "title": "Landing pages",
+        "subtitle": "I was focused on create landing pages for Telcel club which used HTML and CSS."
       },
       {
         "image": "images/modal05/EN/m05-02.png",
-        "title": "Title.",
-        "subtitle": "Subtitle"
+        "title": "Landing page",
+        "subtitle": "Example"
       },
       {
         "image": "images/modal05/EN/m05-03.png",
-        "title": "Title.",
-        "subtitle": "Subtitle"
+        "title": "Landing page",
+        "subtitle": "Example"
       }
     ],
     "modal_6": [
       {
+        "image": "images/modal06/EN/m06-00.png",
+        "title": "Heineken Mexico / Sociedad Cuauhtémoc y Famosa",
+        "subtitle": "I was part of the Internal Communication. My job was to create assignments in visual communication to disseminate the identity of the company."
+      },
+      {
         "image": "images/modal06/EN/m06-01.jpg",
-        "title": "Title.",
-        "subtitle": "Subtitle"
+        "title": "Social media posts",
+        "subtitle": "Advertising for sport events of the company."
       },
       {
         "image": "images/modal06/EN/m06-02.png",
-        "title": "Title.",
-        "subtitle": "Subtitle"
+        "title": "Advertising / Infographics",
+        "subtitle": "Creation of infographics and diverse advertising for the members of the company."
       },
       {
         "image": "images/modal06/EN/m06-03.png",
-        "title": "Title.",
-        "subtitle": "Subtitle"
+        "title": "Advertising / Infographics",
+        "subtitle": "Example"
       },
       {
         "image": "images/modal06/EN/m06-04.png",
-        "title": "Title.",
-        "subtitle": "Subtitle"
+        "title": "Company's newsletter",
+        "subtitle": "Newsletter has the purpose of communicate relevant news for company members."
       },
       {
         "image": "images/modal06/EN/m06-05.png",
-        "title": "Title.",
-        "subtitle": "Subtitle"
+        "title": "Company's newsletter",
+        "subtitle": "Example"
       },
       {
         "image": "images/modal06/EN/m06-06.png",
-        "title": "Title.",
-        "subtitle": "Subtitle"
+        "title": "Advertising",
+        "subtitle": "Example"
       },
       {
         "image": "images/modal06/EN/m06-07.png",
-        "title": "Title.",
-        "subtitle": "Subtitle"
+        "title": "Advertising",
+        "subtitle": "Example"
       },
       {
         "image": "images/modal06/EN/m06-08.png",
-        "title": "Title.",
-        "subtitle": "Subtitle"
+        "title": "Tshirt design",
+        "subtitle": "Example"
       },
       {
         "image": "images/modal06/EN/m06-09.png",
-        "title": "Title.",
-        "subtitle": "Subtitle"
+        "title": "Template design for slides",
+        "subtitle": "I defined style for presentations within the company."
       },
       {
         "image": "images/modal06/EN/m06-10.png",
-        "title": "Title.",
-        "subtitle": "Subtitle"
+        "title": "Company's advertising",
+        "subtitle": "Example"
       }
     ],
     "modal_7": [
       {
         "image": "images/modal07/EN/m07-01.png",
-        "title": "Title",
-        "subtitle": "Subtitle."
+        "title": "Fashion photography",
+        "subtitle": "My position was be on charge of fashion photography and editing all photographs."
       },
       {
         "image": "images/modal07/EN/m07-02.png",
-        "title": "Title",
-        "subtitle": "Subtitle."
+        "title": "Fashion photography",
+        "subtitle": "Example"
       },
       {
         "image": "images/modal07/EN/m07-03.png",
-        "title": "Title",
-        "subtitle": "Subtitle."
+        "title": "Photography",
+        "subtitle": "Example"
       },
       {
         "image": "images/modal07/EN/m07-04.png",
-        "title": "Title",
-        "subtitle": "Subtitle."
+        "title": "Photography",
+        "subtitle": "Example"
       },
       {
         "image": "images/modal07/EN/m07-05.png",
-        "title": "Title",
-        "subtitle": "Subtitle."
+        "title": "Videomapping",
+        "subtitle": "Preview"
       },
       {
         "image": "images/modal07/EN/m07-06.png",
-        "title": "Title",
-        "subtitle": "Subtitle."
+        "title": "Social media",
+        "subtitle": "Muestra"
       },
       {
         "image": "images/modal07/EN/m07-07.png",
-        "title": "Title",
-        "subtitle": "Subtitle."
+        "title": "Flyer",
+        "subtitle": "Create flyers to promote our services and broadcast digitally."
       },
       {
         "image": "images/modal07/EN/m07-08.png",
-        "title": "Title",
-        "subtitle": "Subtitle."
+        "title": "Business card",
+        "subtitle": "Design for company business cards."
       },
       {
         "image": "images/modal07/EN/m07-09.png",
-        "title": "Title",
-        "subtitle": "Subtitle."
+        "title": "Social media",
+        "subtitle": "Example"
       },
       {
         "image": "images/modal07/EN/m07-10.png",
-        "title": "Title",
-        "subtitle": "Subtitle."
+        "title": "Social media",
+        "subtitle": "Example"
       },
       {
         "image": "images/modal07/EN/m07-11.png",
-        "title": "Title.",
-        "subtitle": "Subtitle"
+        "title": "Social media",
+        "subtitle": "Example"
       }
     ],
     "modal_8": [
       {
         "image": "images/modal08/EN/m08-01.png",
-        "title": "Title.",
-        "subtitle": "Subtitle"
+        "title": "Gamevention",
+        "subtitle": "Gamevention was an event related to videogames. It was important to give an appropiate image according to it with all brands and characters that appeared in this event."
       },
       {
         "image": "images/modal08/EN/m08-02.png",
-        "title": "Title.",
-        "subtitle": "Subtitle"
+        "title": "Render - location",
+        "subtitle": "Show the positioning of each piece of art according to the location within the location. To facilitate this, a simple render was made to specify its positioning."
       },
       {
         "image": "images/modal08/EN/m08-03.png",
-        "title": "Title.",
-        "subtitle": "Subtitle"
+        "title": "Art design",
+        "subtitle": "Art related to the brand was designed. Each banner featured a brand included in the convention."
       },
       {
-        "image": "images/modal09/EN/m08-04.png",
-        "title": "Title.",
-        "subtitle": "Subtitle"
+        "image": "images/modal08/EN/m08-04.png",
+        "title": "Banners",
+        "subtitle": "Example"
       }
     ],
     "modal_9": [
       {
         "image": "images/modal09/EN/m09-01.png",
-        "title": "Title.",
-        "subtitle": "Subtitle"
+        "title": "Ecotourism brochure",
+        "subtitle": "Brochures are a great way to present a lot of information on one sheet of paper. You could use them to advertise your business, service, or products. They’re also great for communicating details about schools, workplaces or organizations."
       },
-
       {
         "image": "images/modal09/EN/m09-02.png",
-        "title": "Title.",
-        "subtitle": "Subtitle"
+        "title": "Social media",
+        "subtitle": "I created all the social media posts for our accounts (Instagram, facebook, twitter)"
       }
     ],
     "modal_10": [
       {
         "image": "images/modal10/EN/m10-01.png",
-        "title": "Title.",
-        "subtitle": "Subtitle"
+        "title": "Fashion photography",
+        "subtitle": "Fashion photography showcases and glamorizes fashion clothing, shoes, and accessories to make them more desirable to consumers. It is commonly published in magazines and online."
       },
       {
         "image": "images/modal10/EN/m10-02.png",
-        "title": "Title.",
-        "subtitle": "Subtitle"
+        "title": "Product photography",
+        "subtitle": "Practically every product advertisement that we see today has photos that were most probably shot by a commercial photographer. Brands hire professional commercial product photographers to enhance their product appeal."
       },
       {
         "image": "images/modal10/EN/m10-03.png",
-        "title": "Title.",
-        "subtitle": "Subtitle"
+        "title": "Product photography",
+        "subtitle": "Example"
       },
       {
         "image": "images/modal10/EN/m10-04.png",
-        "title": "Title.",
-        "subtitle": "Subtitle"
+        "title": "Product photography",
+        "subtitle": "Example"
       }
     ]
 
@@ -566,169 +609,213 @@
       {
         "image": "images/modal04/EN/m04-02.png",
         "title": "Redes sociales",
-        "subtitle": "Subtitle"
+        "subtitle": "Diseñé varias imágenes para redes sociales. Creé estas imágenes enfocadas en los principales beneficios."
       },
       {
         "image": "images/modal04/EN/m04-03.png",
-        "title": "Title.",
-        "subtitle": "Subtitle"
+        "title": "Redes sociales",
+        "subtitle": "Ejemplo"
+      },
+      {
+        "image": "images/modal04/EN/m04-04.png",
+        "title": "Login de Robie",
+        "subtitle": "Creamos acceso a través de Google o correo electrónico para iniciar sesión"
+      },
+      {
+        "image": "images/modal04/EN/m04-05.png",
+        "title": "Nueva búsqueda",
+        "subtitle": "Vista cuando el usuario busca una nueva propiedad."
+      },
+      {
+        "image": "images/modal04/EN/m04-06.png",
+        "title": "Mis búsquedas",
+        "subtitle": "Vista donde usuario puede acceder a todas las búsquedas de propiedad activas."
+      },
+      {
+        "image": "images/modal04/EN/m04-07.png",
+        "title": "Mis matches",
+        "subtitle": "Tipos de matches para una búsqueda de propiedad con otros usuarios."
+      },
+      {
+        "image": "images/modal04/EN/m04-08.jpg",
+        "title": "Nueva propiedad",
+        "subtitle": "Características de un inmueble"
+      },
+      {
+        "image": "images/modal04/EN/m04-09.png",
+        "title": "Mis propiedades",
+        "subtitle": "Opciones para un inmueble"
+      },
+      {
+        "image": "images/modal04/EN/m04-10.png",
+        "title": "Perfil de usuario",
+        "subtitle": "Vista del perfil de uno de tus contactos."
+      },
+      {
+        "image": "images/modal04/EN/m04-11.png",
+        "title": "Notificaciones",
+        "subtitle": "Creamos una sección donde el usuario puede activar o desactivar las notificaciones divididas por secciones."
       }
     ],
     "modal_5": [
       {
         "image": "images/modal05/EN/m05-01.png",
-        "title": "Title.",
-        "subtitle": "Subtitle"
+        "title": "Landing pages",
+        "subtitle": "Estaba enfocado en crear landing pages para el club Telcel que usaban HTML y CSS."
       },
       {
         "image": "images/modal05/EN/m05-02.png",
-        "title": "Title.",
-        "subtitle": "Subtitle"
+        "title": "Landing page",
+        "subtitle": "Ejemplo"
       },
       {
         "image": "images/modal05/EN/m05-03.png",
-        "title": "Title.",
-        "subtitle": "Subtitle"
+        "title": "Landing page",
+        "subtitle": "Ejemplo"
       }
     ],
     "modal_6": [
       {
+        "image": "images/modal06/EN/m06-00.png",
+        "title": "Heineken México / Sociedad Cuauhtémoc y Famosa",
+        "subtitle": "Fui parte de los departamentos de Comunicación Interna. Mi trabajo era crear diversos trabajos en comunicación visual para divulgar la identidad de la compañía."
+      },
+      {
         "image": "images/modal06/EN/m06-01.jpg",
-        "title": "Title.",
-        "subtitle": "Subtitle"
+        "title": "Redes sociales",
+        "subtitle": "Publicidad para eventos deportivos en la compañía."
       },
       {
         "image": "images/modal06/EN/m06-02.png",
-        "title": "Title.",
-        "subtitle": "Subtitle"
+        "title": "Publicidad / Infografías",
+        "subtitle": "Creación de infografías y publicidad diversa para los miembros de la compañía."
       },
       {
         "image": "images/modal06/EN/m06-03.png",
-        "title": "Title.",
-        "subtitle": "Subtitle"
+        "title": "Publicidad / Infografías",
+        "subtitle": "Ejemplo"
       },
       {
         "image": "images/modal06/EN/m06-04.png",
-        "title": "Title.",
-        "subtitle": "Subtitle"
+        "title": "Periódico de comunicación interna",
+        "subtitle": "El periódico tiene el propósito de comunicar noticias relevantes para los miembros de la empresa."
       },
       {
         "image": "images/modal06/EN/m06-05.png",
-        "title": "Title.",
-        "subtitle": "Subtitle"
+        "title": "Periódico de comunicación interna",
+        "subtitle": "Ejemplo"
       },
       {
         "image": "images/modal06/EN/m06-06.png",
-        "title": "Title.",
-        "subtitle": "Subtitle"
+        "title": "Publicidad",
+        "subtitle": "Ejemplo"
       },
       {
         "image": "images/modal06/EN/m06-07.png",
-        "title": "Title.",
-        "subtitle": "Subtitle"
+        "title": "Publicidad",
+        "subtitle": "Ejemplo"
       },
       {
         "image": "images/modal06/EN/m06-08.png",
-        "title": "Title.",
-        "subtitle": "Subtitle"
+        "title": "Diseño de playeras",
+        "subtitle": "Ejemplo"
       },
       {
         "image": "images/modal06/EN/m06-09.png",
-        "title": "Title.",
-        "subtitle": "Subtitle"
+        "title": "Diseño de plantilla para presentaciones",
+        "subtitle": "Definí estilo para presentaciones dentro de la compañía."
       },
       {
         "image": "images/modal06/EN/m06-10.png",
-        "title": "Title.",
-        "subtitle": "Subtitle"
+        "title": "Publicidad interna",
+        "subtitle": "Ejemplo"
       }
     ],
     "modal_7": [
       {
         "image": "images/modal07/EN/m07-01.png",
-        "title": "Title",
-        "subtitle": "Subtitle."
+        "title": "Fotografía de estudio",
+        "subtitle": "Mi posición era estar a cargo de la fotografía de estudio y el retoque digital."
       },
       {
         "image": "images/modal07/EN/m07-02.png",
-        "title": "Title",
-        "subtitle": "Subtitle."
+        "title": "Fotografía de estudio",
+        "subtitle": "Ejemplo"
       },
       {
         "image": "images/modal07/EN/m07-03.png",
-        "title": "Title",
-        "subtitle": "Subtitle."
+        "title": "Fotografía",
+        "subtitle": "Ejemplo"
       },
       {
         "image": "images/modal07/EN/m07-04.png",
-        "title": "Title",
-        "subtitle": "Subtitle."
+        "title": "Fotografía",
+        "subtitle": "Ejemplo."
       },
       {
         "image": "images/modal07/EN/m07-05.png",
-        "title": "Title",
-        "subtitle": "Subtitle."
+        "title": "Videomapping",
+        "subtitle": "Muestra"
       },
       {
         "image": "images/modal07/EN/m07-06.png",
-        "title": "Title",
-        "subtitle": "Subtitle."
+        "title": "Redes sociales",
+        "subtitle": "Ejemplo"
       },
       {
         "image": "images/modal07/EN/m07-07.png",
-        "title": "Title",
-        "subtitle": "Subtitle."
+        "title": "Flyer",
+        "subtitle": "Cree flyers para promocionar nuestros servicios y difusión de manera digital."
       },
       {
         "image": "images/modal07/EN/m07-08.png",
-        "title": "Title",
-        "subtitle": "Subtitle."
+        "title": "Tarjeta de presentación",
+        "subtitle": "Diseño para tarjetas de presentación de la empresa."
       },
       {
         "image": "images/modal07/EN/m07-09.png",
-        "title": "Title",
-        "subtitle": "Subtitle."
+        "title": "Redes sociales",
+        "subtitle": "Ejemplo"
       },
       {
         "image": "images/modal07/EN/m07-10.png",
-        "title": "Title",
-        "subtitle": "Subtitle."
+        "title": "Redes sociales",
+        "subtitle": "Ejemplo"
       },
       {
         "image": "images/modal07/EN/m07-11.png",
-        "title": "Title.",
-        "subtitle": "Subtitle"
+        "title": "Redes sociales",
+        "subtitle": "Ejemplo"
       }
     ],
     "modal_8": [
       {
         "image": "images/modal08/EN/m08-01.png",
-        "title": "Title.",
-        "subtitle": "Subtitle"
+        "title": "Gamevention",
+        "subtitle": "Gamevention fue un evento relacionado con los videojuegos. Era importante dar una imagen adecuada acorde a ella con todas las marcas y personajes que aparecieron en este evento."
       },
       {
         "image": "images/modal08/EN/m08-02.png",
-        "title": "Title.",
-        "subtitle": "Subtitle"
+        "title": "Render - ubicación",
+        "subtitle": "Mostrar el posicionamiento de cada pieza de arte según la ubicación dentro de la locación. Para facilitarlo se realizó un render sencillo para especificar su posicionamiento."
       },
       {
         "image": "images/modal08/EN/m08-03.png",
-        "title": "Title.",
-        "subtitle": "Subtitle"
+        "title": "Creación de arte",
+        "subtitle": "Se diseñó arte relacionado a la marca. Cada banner mostraba una marca incluida en la convención."
       },
       {
-        "image": "images/modal09/EN/m08-04.png",
-        "title": "Title.",
-        "subtitle": "Subtitle"
+        "image": "images/modal08/EN/m08-04.png",
+        "title": "Banners",
+        "subtitle": "Ejemplo"
       }
     ],
     "modal_9": [
       {
         "image": "images/modal09/EN/m09-01.png",
-        "title": "Title.",
-        "subtitle": "Subtitle"
+        "title": "Redes sociales",
+        "subtitle": "Creé todas las publicaciones en redes sociales para nuestras cuentas (Instagram, facebook, twitter)"
       },
-
       {
         "image": "images/modal09/EN/m09-02.png",
         "title": "Title.",
@@ -738,23 +825,23 @@
     "modal_10": [
       {
         "image": "images/modal10/EN/m10-01.png",
-        "title": "Title.",
-        "subtitle": "Subtitle"
+        "title": "Fotografía de moda",
+        "subtitle": "La fotografía de moda muestra y da glamour a la ropa, los zapatos y los accesorios de moda para hacerlos más atractivos para los consumidores. Se publica comúnmente en revistas y en línea."
       },
       {
         "image": "images/modal10/EN/m10-02.png",
-        "title": "Title.",
-        "subtitle": "Subtitle"
+        "title": "Fotografía de producto",
+        "subtitle": "Prácticamente todos los anuncios de productos que vemos hoy tienen fotos que probablemente fueron tomadas por un fotógrafo comercial. Las marcas contratan fotógrafos profesionales de productos comerciales para mejorar el atractivo de sus productos."
       },
       {
         "image": "images/modal10/EN/m10-03.png",
-        "title": "Title.",
-        "subtitle": "Subtitle"
+        "title": "Fotografía de producto",
+        "subtitle": "Ejemplo"
       },
       {
         "image": "images/modal10/EN/m10-04.png",
-        "title": "Title.",
-        "subtitle": "Subtitle"
+        "title": "Fotografía de producto",
+        "subtitle": "Ejemplo"
       }
     ]
   }
