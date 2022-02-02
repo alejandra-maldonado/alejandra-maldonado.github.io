@@ -1361,8 +1361,9 @@ header .logo a {
 	margin-bottom: .6rem;
 	margin-left: auto;
 	margin-right: auto;
-	text-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
 }
+
+
 .intro-content h3 {
 	color: #cccccc;
 	font-family: "poppins-medium", sans-serif;
@@ -1373,7 +1374,6 @@ header .logo a {
 	margin-bottom: .6rem;
 	margin-left: auto;
 	margin-right: auto;
-	text-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
 }
 
 .intro-content h5 {
@@ -1384,7 +1384,6 @@ header .logo a {
 	margin-bottom: 0;
 	text-transform: uppercase;
 	letter-spacing: .3rem;
-	text-shadow: 0 0 6px rgba(0, 0, 0, 0.2);
 }
 .intro-content .intro-position {
 	font-family: "lora-regular", serif;
@@ -1838,10 +1837,11 @@ header .logo a {
 	padding-bottom: 12rem;
 }
 #portfolio .folio-item {
-	padding: 0;
+	padding: 50px;
 	position: relative;
 	overflow: hidden;
 }
+
 #portfolio .folio-item img {
 	vertical-align: middle;
 	-moz-transition: all 0.5s ease-in-out;
@@ -1863,6 +1863,8 @@ header .logo a {
 	-webkit-transition: all 0.5s ease-in-out;
 	-ms-transition: all 0.5s ease-in-out;
 	transition: all 0.5s ease-in-out;
+	padding: 50px;
+	border-radius: 25px;
 }
 
 #portfolio .folio-item-table {
@@ -1870,6 +1872,7 @@ header .logo a {
 	width: 100%;
 	height: 100%;
 }
+
 #portfolio .folio-item-cell {
 	display: table-cell;
 	vertical-align: middle;
@@ -1881,6 +1884,8 @@ header .logo a {
 	transition: all 0.5s ease-in-out;
 	position: relative;
 	left: -100%;
+	padding: 50px;
+	border-radius: 25px;
 }
 
 #portfolio .folio-title {
@@ -1900,6 +1905,9 @@ header .logo a {
 }
 #portfolio .folio-item:hover .overlay {
 	background: rgba(0, 0, 0, 0.8);
+	padding: 50px;
+	border-radius: 25px;
+	height:
 }
 #portfolio .folio-item:hover .folio-item-cell {
 	left: 0;
@@ -2675,3 +2683,13 @@ footer .copyright span:last-child::after {
 }
 
 /*# sourceMappingURL=main.css.map */
+
+/* -------- CLASES HECHAS POR ALEJANDRA --------  */
+
+.card-projects{
+	box-shadow: 0 8px 20px 10px #E8E8E8; border-radius: 25px;
+}
+
+.card-projects img {
+	border-radius: 25px;
+}
