@@ -1311,12 +1311,12 @@ header .logo a {
  	display: table;
  	position: relative;
  	text-align: center;
-	background: linear-gradient(230deg,#a24bcf,#4b79cf,#4bc5cf);
-	animation: AnimationName 10s ease infinite;
+	background: linear-gradient(230deg,#fa5e5e,#e64fa2,#e64fd4,#b34fe6,#525ee6,#5286e6,#54e3f0,#54f0a7,#54f080,#fefa82);
+	animation: AnimationName 20s ease infinite;
 	animation-fill-mode: forwards;
-	background-size: 400% 400%;
+	background-size: 900% 900%;
  }
-
+ 
 
 
 #intro-kinedu {
