@@ -1316,7 +1316,7 @@ header .logo a {
 	animation-fill-mode: forwards;
 	background-size: 900% 900%;
  }
- 
+
 
 
 #intro-kinedu {
@@ -2687,9 +2687,137 @@ footer .copyright span:last-child::after {
 /* -------- CLASES HECHAS POR ALEJANDRA --------  */
 
 .card-projects{
-	box-shadow: 0 8px 20px 10px #E8E8E8; border-radius: 25px;
+	box-shadow: 0 8px 20px 10px #E8E8E8;
+	border-radius: 25px;
 }
 
 .card-projects img {
 	border-radius: 25px;
+}
+
+.card-project-back {
+  background-color: #fff;
+  transform: rotateY(180deg);
+}
+.card-project:hover .card-side-back {
+  transform: rotateY(0);
+}
+.card-project:hover .card-side-front {
+  transform: rotateY(-180deg);
+}
+
+/* ------- */
+
+.artboard {
+  display: flex;
+  flex-flow: row;
+  align-items: center;
+  justify-content: center;
+  padding: 4rem;
+  height: 100%;
+	left: 0px;
+	top: 0px;
+}
+@media (max-width: 37.5em) {
+  .artboard {
+    padding: 1rem;
+  }
+}
+.card {
+  flex: initial;
+  position: relative;
+  height: 48rem;
+  width: 48rem;
+  -moz-perspective: 200rem;
+  perspective: 200rem;
+  margin: 2rem;
+}
+.card__side {
+  height: 48rem;
+  transition: all 0.8s ease;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  -webkit-backface-visibility: hidden;
+  /* We don't want to see the back part of the element. */
+  backface-visibility: hidden;
+  overflow: hidden;
+  /* The image is overflowing the parent. */
+  box-shadow: 0 2rem 6rem #E8E8E8;
+	border-radius: 25px;
+}
+
+.card__side--back {
+  background-color: #fff;
+  transform: rotateY(180deg);
+}
+.card:hover .card__side--back {
+  transform: rotateY(0);
+}
+.card:hover .card__side--front {
+  transform: rotateY(-180deg);
+}
+.card__theme {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  top: 54%;
+  width: 90%;
+  text-align: center;
+}
+.card__theme-box {
+  color: #fff;
+  margin-bottom: 8rem;
+}
+.card__subject {
+  font-family: "Inconsolata", monospace;
+  letter-spacing: 0.8rem;
+  font-size: 1.6rem;
+  text-transform: uppercase;
+  margin-bottom: 1rem;
+}
+.card__title {
+  font-family: "VT323", monospace;
+  text-transform: uppercase;
+  font-size: 6rem;
+  font-weight: 100;
+}
+.card__cover {
+  position: relative;
+  background-size: cover;
+  height: 14rem;
+  border-top-left-radius: 3px;
+  border-top-right-radius: 3px;
+}
+.card__heading {
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 75%;
+}
+.card__heading-span {
+  font-size: 4.2rem;
+  font-weight: 300;
+  text-transform: uppercase;
+  padding: 1rem 1.5rem;
+  color: black;
+}
+.card__details {
+  font-family: "poppins-regular", sans-serif;
+  padding: 4rem 2rem;
+	color:rgb(91,91,91);
+}
+.card__details ul {
+  list-style: none;
+  width: 80%;
+  margin: 0 auto;
+}
+.card__details ul li {
+  text-align: center;
+  font-size: 1.8rem;
+  padding: 1rem;
 }
