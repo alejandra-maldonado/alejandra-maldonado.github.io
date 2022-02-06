@@ -1837,7 +1837,8 @@ header .logo a {
 	padding-bottom: 12rem;
 }
 #portfolio .folio-item {
-	padding: 50px;
+	padding-bottom: 50px;
+	padding-top: 50px;
 	position: relative;
 	overflow: hidden;
 }
@@ -1912,11 +1913,7 @@ header .logo a {
 #portfolio .folio-item:hover .folio-item-cell {
 	left: 0;
 }
-#portfolio .folio-item:hover img {
-	-webkit-transform: scale(1.05);
-	-ms-transform: scale(1.05);
-	transform: scale(1.05);
-}
+
 
 /**
  * responsive:
@@ -2689,21 +2686,12 @@ footer .copyright span:last-child::after {
 .card-projects{
 	box-shadow: 0 8px 20px 10px #E8E8E8;
 	border-radius: 25px;
+	height: 10rem;
+	width: 10rem;
 }
 
 .card-projects img {
 	border-radius: 25px;
-}
-
-.card-project-back {
-  background-color: #fff;
-  transform: rotateY(180deg);
-}
-.card-project:hover .card-side-back {
-  transform: rotateY(0);
-}
-.card-project:hover .card-side-front {
-  transform: rotateY(-180deg);
 }
 
 /* ------- */
@@ -2713,7 +2701,6 @@ footer .copyright span:last-child::after {
   flex-flow: row;
   align-items: center;
   justify-content: center;
-  padding: 4rem;
   height: 100%;
 	left: 0px;
 	top: 0px;
@@ -2730,7 +2717,6 @@ footer .copyright span:last-child::after {
   width: 48rem;
   -moz-perspective: 200rem;
   perspective: 200rem;
-  margin: 2rem;
 }
 .card__side {
   height: 48rem;
@@ -2821,27 +2807,64 @@ footer .copyright span:last-child::after {
   font-size: 1.8rem;
   padding: 1rem;
 }
-body,html{
-	width:100%;
-	height: 100%;
-  }
-  body{
+	@media screen and (max-width: 499px) {
+		.card {
+		  flex: initial;
+		  position: relative;
+		  height: 30rem;
+		  width: 30rem;
+		  -moz-perspective: 200rem;
+		  perspective: 200rem;
+		}
+		.card__side {
+		  height: 30rem;
+		  transition: all 0.8s ease;
+		  position: absolute;
+		  top: 0;
+		  left: 0;
+		  width: 100%;
+		  -webkit-backface-visibility: hidden;
+		  /* We don't want to see the back part of the element. */
+		  backface-visibility: hidden;
+		  overflow: hidden;
+		  /* The image is overflowing the parent. */
+		  box-shadow: 0 2rem 6rem #E8E8E8;
+			border-radius: 25px;
+		}
+
+		.card__heading-span {
+		  font-size: 2.2rem;
+		  font-weight: 150;
+		  text-transform: uppercase;
+		  padding: 0rem 0rem;
+		  color: black;
+		}
+
+		.card__details ul li {
+		  text-align: center;
+		  font-size: 1.3rem;
+		  padding: 0.7rem;
+		}
+	}
+
+
+.bubbles-container{
 	margin:0;
 	padding:0;
 	background: linear-gradient(0deg, #fdb93c 93%, #fff 70%);
-  }
+}
+
   .bubbles{
 	position:absolute;
 	width:100%;
-	height: 84%;
+	height: 90%;
 	z-index:0;
-	overflow:hidden;
 	top:0;
 	left:0;
   }
   .bubble{
 	position: absolute;
-	bottom:-100px;
+	bottom:0px;
 	width:40px;
 	height: 40px;
 	background:#fff;
@@ -2920,27 +2943,61 @@ body,html{
   }
   @keyframes rise{
 	0%{
-	  bottom:-100px;
+	  bottom:0px;
 	  transform:translateX(0);
 	}
 	50%{
 	  transform:translate(100px);
 	}
 	100%{
-	  bottom:1080px;
+	  bottom:100%;
 	  transform:translateX(-200px);
 	}
   }
-  #landscape {
-	background: #313131 url(../images/portfolio/robie/robie-02.svg) no-repeat center;
-	background-size: 100%;
-	width: 100%;
-	height: 100%;
-	/* -webkit-background-size: cover;
-	-moz-background-size: cover;
-	
-	padding-top: 12rem;
-	padding-bottom: 12rem;
-	color: white;
-	position: relative; */
-}
+
+	@media screen and (max-width: 499px) {
+		.bubbles{
+		position:absolute;
+		width:100%;
+		height: 110%;
+		z-index:0;
+		top:0;
+		left:0;
+		}
+
+		.bubble{
+		position: absolute;
+		width:40px;
+		height: 40px;
+		background:#fff;
+		border-radius:50%;
+		opacity:0.5;
+		animation: rise 10s infinite ease-in;
+	  }
+
+		@keyframes rise{
+		0%{
+			bottom:-50%;
+			transform:translateX(0);
+		}
+		50%{
+			transform:translate(100px);
+		}
+		100%{
+			bottom:100%;
+			transform:translateX(-200px);
+		}
+		}
+	}
+
+	.gal-tabs{
+	   text-align: center;
+		 margin: 0rem 9rem 6rem 9rem;
+	}
+
+	.gal-tabs a.prv{
+	   float: left;
+	}
+	.gal-tabs a.nxt{
+	   float: right;
+	}
