@@ -2688,6 +2688,7 @@ footer .copyright span:last-child::after {
 	border-radius: 25px;
 	height: 10rem;
 	width: 10rem;
+	margin: 0 auto;
 }
 
 .card-projects img {
@@ -2857,7 +2858,7 @@ footer .copyright span:last-child::after {
   .bubbles{
 	position:absolute;
 	width:100%;
-	height: 70rem;
+	height: 67rem;
 	z-index:0;
 	top:0;
 	left:0;
@@ -2992,7 +2993,7 @@ footer .copyright span:last-child::after {
 
 	.gal-tabs{
 	   text-align: center;
-		 margin: 0rem 9rem 6rem 9rem;
+		 margin: 0rem 4rem 6rem 4rem;
 	}
 
 	.gal-tabs a.prv{
@@ -3001,3 +3002,16 @@ footer .copyright span:last-child::after {
 	.gal-tabs a.nxt{
 	   float: right;
 	}
+
+.project-portafolio-button{
+	text-align: center;
+}
+
+.divclass{
+  font-size:5em;
+	scroll-behavior: smooth;
+}
+
+.divclass:hover .fa-chevron-down:before{
+  font-size: 6rem;
+}
