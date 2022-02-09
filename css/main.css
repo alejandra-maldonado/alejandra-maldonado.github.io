@@ -2695,6 +2695,7 @@ footer .copyright span:last-child::after {
 	border-radius: 25px;
 }
 
+
 /* ------- */
 
 .artboard {
@@ -3003,6 +3004,12 @@ footer .copyright span:last-child::after {
 	   float: right;
 	}
 
+	.card-projects:hover{
+		-webkit-transform: scale(1.05);
+		-ms-transform: scale(1.05);
+		transform: scale(1.05);
+	}
+
 .project-portafolio-button{
 	text-align: center;
 }
@@ -3014,4 +3021,31 @@ footer .copyright span:last-child::after {
 
 .divclass:hover .fa-chevron-down:before{
   font-size: 6rem;
+}
+
+.card-projects-title{
+	margin-top: 10px;
+	display: inline-block;
+	margin-bottom: 0px;
+}
+
+.card-project-title-prev-next{
+	font-weight: 900;
+	font-size: 1.4rem;
+	line-height: 1.714;
+	text-transform: uppercase;
+	letter-spacing: .15rem;
+	font-family: "poppins-bold";
+	font-style: normal;
+	text-rendering: optimizeLegibility;
+}
+
+.card-project-title-prev-next:hover, .card-project-title-prev-next:active, {
+	color: #FF0077;
+}
+
+.icon {
+	vertical-align: middle;
+	margin-left: 10px;
+	margin-right: 10px;
 }
