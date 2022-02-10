@@ -1416,7 +1416,6 @@ header .logo a {
 	border-color: rgba(255, 255, 255, 0.3);
 	height: 6rem !important;
 	line-height: 5.4rem !important;
-	padding: 0 3.5rem 0 3rem !important;
 	margin-top: .6rem;
 	font-size: 1.3rem;
 	text-transform: uppercase;
@@ -1433,7 +1432,6 @@ header .logo a {
 	line-height: inherit;
 	text-align: center;
 	position: relative;
-	left: 1.2rem;
 }
 
 .intro-social {
@@ -2333,12 +2331,12 @@ header .logo a {
  * -------------------------------------------------------------------
  */
 #contact {
-	background: #151515;
+	background: #FFFFFF;
 	padding-top: 12rem;
 	padding-bottom: 7.2rem;
 }
 #contact .section-intro h1 {
-	color: white;
+	color: #151515;
 }
 #contact .section-intro h5 {
 	color: #FF0077;
@@ -2505,7 +2503,7 @@ header .logo a {
 }
 .contact-info .icon i {
 	font-size: 4.2rem;
-	color: #FFFFFF;
+	color: #151515;
 }
 .contact-info h5 {
 	color: #FF0077;
@@ -3015,12 +3013,11 @@ footer .copyright span:last-child::after {
 }
 
 .divclass{
-  font-size:5em;
 	scroll-behavior: smooth;
 }
 
 .divclass:hover .fa-chevron-down:before{
-  font-size: 6rem;
+  font-size: 4.5rem;
 }
 
 .card-projects-title{
