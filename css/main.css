@@ -2351,19 +2351,19 @@ header .logo a {
 }
 
 .contact-form ::-webkit-input-placeholder {
-	color: rgba(255, 255, 255, 0.3);
+	color: rgba(000, 000, 000, 0.5);
 }
 .contact-form :-moz-placeholder {
-	color: rgba(255, 255, 255, 0.3);  /* Firefox 18- */
+	color: rgba(000, 000, 000, 0.5);  /* Firefox 18- */
 }
 .contact-form ::-moz-placeholder {
-	color: rgba(255, 255, 255, 0.3);  /* Firefox 19+ */
+	color: rgba(000, 000, 000, 0.5);  /* Firefox 19+ */
 }
 .contact-form :-ms-input-placeholder {
-	color: rgba(255, 255, 255, 0.3);
+	color: rgba(000, 000, 000, 0.5);
 }
 .contact-form .placeholder {
-	color: rgba(255, 255, 255, 0.3) !important;
+	color: rgba(000, 000, 000, 0.5) !important;
 }
 
 #contact form {
@@ -2391,7 +2391,7 @@ header .logo a {
 	letter-spacing: .1rem;
 	padding: 0 2rem;
 	margin: 0;
-	color: #FFFFFF;
+	color: #000000;
 	background: #FF0077;
 }
 #contact form .form-field label::after {
@@ -2409,10 +2409,10 @@ header .logo a {
 #contact input[type="email"],
 #contact textarea {
 	width: 100%;
-	color: rgba(255, 255, 255, 0.7);
+	color: rgba(0, 0, 0, 0.7);
 	margin-bottom: 0;
 	border: none;
-	border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+	border-bottom: 1px solid rgba(0, 0, 0, 0.1);
 }
 #contact input[type="text"],
 #contact input[type="password"],
@@ -2424,7 +2424,7 @@ header .logo a {
 #contact input[type="password"]:focus,
 #contact input[type="email"]:focus {
 	border-color: #FF0077;
-	color: #FFFFFF;
+	color: #000000;
 }
 #contact textarea {
 	min-height: 20rem;
@@ -2432,7 +2432,7 @@ header .logo a {
 }
 #contact textarea:focus {
 	border-color: #FF0077;
-	color: #FFFFFF;
+	color: #000000;
 }
 #contact button.submitform {
 	font-size: 1.5rem;
@@ -2444,7 +2444,7 @@ header .logo a {
 	margin-top: 4.8rem;
 	width: 100%;
 	background: #FF0077;
-	color: #FFFFFF;
+	color: #000000;
 }
 #contact button.submitform:hover, #contact button.submitform:focus {
 	background: #cc005f;
