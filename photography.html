@@ -1,12 +1,12 @@
 <!DOCTYPE html>
 <!--[if IE 8 ]><html class="no-js oldie ie8" lang="en"> <![endif]-->
 <!--[if IE 9 ]><html class="no-js oldie ie9" lang="en"> <![endif]-->
-<!--[if (gte IE 9)|!(IE)]><!--><html class="no-js" lang="en"> <!--<![endif]-->
+<!--[if (gte IE 9)|!(IE)]><!--><html class="no-js" lang="es"> <!--<![endif]-->
 <head>
 
    <!--- basic page needs ================================================ -->
    <meta charset="utf-8">
-	<title>Style Demo - Kards</title>
+	<title>Alejandra Maldonado — Fotografía</title>
 	<meta name="description" content="">  
 	<meta name="author" content="">
 
@@ -27,14 +27,27 @@
    	#styles { 
    		background: white;
 		padding-top: 10rem;
-   		padding-bottom: 12rem;
+   		padding-bottom: 2rem;
    	}
    	#styles .row {
    		max-width: 1024px;
-     	}
-     	#styles .section-intro {
-   		max-width: 800px;
-     	}
+    }
+    #styles .section-intro {
+   	max-width: 800px;
+    }
+
+
+    #styles_card_bottom {
+      background: white;
+      padding-top: 3rem;
+      padding-bottom: 12rem;
+    }
+    #styles_card_bottom .row {
+      max-width: 1024px;
+    }
+    #styles_card_bottom .section-intro {
+      max-width: 800px;
+    }
     </style>       
 
     <!-- script ================================================== -->
@@ -50,15 +63,15 @@
     <header>   	
    	<div class="row">
 		<div class="top-bar">
-			<a class="menu-toggle" href="#"><span>Menu</span></a>
+			<a class="menu-toggle" href="#"><span>Menú</span></a>
 			    <nav id="main-nav-wrap">
 				<ul class="main-navigation">
-					<li><a href="index.html#intro" title="">Home</a></li>
-					<li><a href="index.html#about" title="">About</a></li>
-					<li><a href="index.html#resume" title="">Resume</a></li>
-					<li><a href="index.html#portfolio" title="">Portfolio</a></li>
-					<li><a href="index.html#services" title="">Services</a></li>
-					<li><a href="index.html#contact" title="">Contact</a></li>
+					<li><a href="index.html#intro" title="">Inicio</a></li>
+					<li><a href="index.html#about" title="">Acerca</a></li>
+					<li><a href="index.html#resume" title="">Currículum</a></li>
+					<li><a href="index.html#portfolio" title="">Portafolio</a></li>
+					<li><a href="index.html#services" title="">Servicios</a></li>
+					<li><a href="index.html#contact" title="">Contacto</a></li>
 					<!-- <li><a class="smoothscroll"  href="#contact" title="">Contact</a></li>				 -->
 				</ul>
 			</nav>   	 
@@ -66,16 +79,14 @@
    	</div> <!-- /row --> 		
    </header> <!-- /header -->
 
-   <!-- Style Demo  ================================================ -->
    <section id="styles">
 		<div class="row section-intro">
 			<div class="col-twelve">
-				<h1>Photography</h1>
-				<p style= "color: #afafaf;"class="lead">Lorem ipsum Do commodo in proident enim in dolor cupidatat adipisicing dolore 
-				officia nisi aliqua incididunt.</p>
+				<h1>Fotografía</h1>
+				<p style= "color: #afafaf;"class="lead">Una poderosa herramienta para la comunicación, expresión y creación de una experiencia de usuario placentera.</p>
 			</div> 
 		</div>
-		<div class="row half-bottom">
+		<div class="row half-bottom" style="padding: 0 20px 0 20px;">
       	<div class="col-six tab-full"></div>
       		<p><img src="images/portfolio/photography/photography_01.png"></p>
       	</div>
@@ -88,7 +99,7 @@
 				<p><img src="images/portfolio/photography/photography_03.png"></p>
 		 	</div>
 	 	</div>
-		 <div class="row half-bottom">
+		<div class="row half-bottom" style="padding: 0 20px 0 20px;">
 			<div class="col-six tab-full"></div>
 				<p><img src="images/portfolio/photography/photography_04.png"></p>
 				<p><img src="images/portfolio/photography/photography_05.png"></p>
@@ -102,25 +113,34 @@
 				<p><img src="images/portfolio/photography/photography_07.png"></p>
 		 	</div>
 	 	</div>
-		
-
+		<div class="row half-bottom" style="padding: 0 20px 0 20px;">
+			<div class="col-six tab-full"></div>
+				<p><img src="images/portfolio/photography/photography_08.png"></p>
+				<p><img src="images/portfolio/photography/photography_09.png"></p>
+		</div>
+	</section>
+	<!-- <section id="styles_"> -->
+  
+  
+	  <section id="styles_card_bottom">
 		<div class="gal-tabs" style="background-color: white;">
 			<!-- Cambiar este link -->
-			<a href="./nuevoleon.html" class="prv">
+			<a href="./heineken.html" class="prv">
 			<div class="project-portafolio-button">
 				<div class="card-projects">
 				<!-- Cambiar estas imagenes -->
-				<img src="images/portfolio/nuevoleon.jpg" alt="Nuevo Leon">
+				<img src="images/portfolio/heineken.jpg" alt="Heineken">
 				</div>
 				<div class="card-projects-title">
 				<i class="fa-solid fa-arrow-left icon"></i>
-				<span class="card-project-title-prev-next">Previous</span>
+				<span class="card-project-title-prev-next">Anterior</span>
 				</div>
 			</div>
 			</a>
 		</div>
-    </section> <!--styles -->
-
+	  </section> 
+	<!--styles -->
+		
     <div id="preloader"> 
     	<div id="loader"></div>
     </div> 
