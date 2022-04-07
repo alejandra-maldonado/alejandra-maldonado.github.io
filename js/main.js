@@ -216,6 +216,36 @@
 	/*	contact form
 	------------------------------------------------------ */
 
+$("#submitEmail").click(function(){
+  let data = {
+     name: $("contactName").val(),
+     email: $("contactEmail").val(),
+     subject: $("contactSubject").val(),
+     message: $("contactMessage").val(),
+  }
+
+  //Ajax method
+  $.ajax({
+      method: 'POST',
+      url: 'https://formsubmit.co/ajax/e27cefef0a17e560141b0550e8e55d9a',
+      dataType: 'json',
+      accepts: 'application/json',
+      data: data,
+      success: (data) => {
+        console.log(data)
+        if(data.success == "true"){
+          $("#success-email").css("display","");
+          $("#error-email").css("display","none");
+        }
+        else{
+          $("#success-email").css("display","none");
+          $("#error-email").css("display","");
+        }
+      },
+      error: (err) => console.log(err)
+  });
+})
+
 	/* local validation */
 	// $('#contactForm').validate({
   //

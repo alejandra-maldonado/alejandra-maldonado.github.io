@@ -3046,6 +3046,19 @@ footer .copyright span:last-child::after {
 	margin-left: 10px;
 	margin-right: 10px;
 }
+
+.sticky{
+	position: sticky;
+  position: -webkit-sticky;
+	bottom: 15px;
+	right: 10px;
+	display: flex;
+}
+
+.is-hidden{
+	display: none;
+}
+
 /* new */
 
 #cf {
@@ -3054,7 +3067,7 @@ footer .copyright span:last-child::after {
 	width: 400px;;
 	margin:0 auto;
   }
-  
+
   #cf img {
 	position:absolute;
 	left:0;
@@ -3078,7 +3091,7 @@ footer .copyright span:last-child::after {
   opacity:0;
   }
   }
-  
+
   #cf3 img.top {
   animation-name: cf3FadeInOut;
   animation-timing-function: ease-in-out;
@@ -3086,7 +3099,3 @@ footer .copyright span:last-child::after {
   animation-duration: 10s;
   animation-direction: alternate;
   }
-
-
-
-
