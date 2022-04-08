@@ -235,12 +235,12 @@ $("#submitEmail").click(function(e){
       success: (data) => {
         console.log(data)
         if(data.success == "true"){
-          $("#success-email").css("display","");
+          $("#success-email").css("display","block");
           $("#error-email").css("display","none");
         }
         else{
           $("#success-email").css("display","none");
-          $("#error-email").css("display","");
+          $("#error-email").css("display","block");
         }
       },
       error: (err) => console.log(err)
