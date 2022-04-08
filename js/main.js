@@ -224,11 +224,11 @@ $("#submitEmail").click(function(e){
      subject: document.getElementById("contactSubject").value,
      message: document.getElementById("contactMessage").value,
   }
-
+  //Make sure you open this page through a web server, FormSubmit will not work in pages browsed as HTML files.
   //Ajax method
   $.ajax({
       method: 'POST',
-      url: 'https://formsubmit.co/ajax/e27cefef0a17e560141b0550e8e55d9a',
+      url: 'https://formsubmit.co/ajax/maldonadol.alejandra@gmail.com',
       dataType: 'json',
       accepts: 'application/json',
       data: data,
