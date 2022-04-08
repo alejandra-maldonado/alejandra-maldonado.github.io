@@ -216,12 +216,13 @@
 	/*	contact form
 	------------------------------------------------------ */
 
-$("#submitEmail").click(function(){
+$("#submitEmail").click(function(e){
+  e.preventDefault();
   let data = {
-     name: $("contactName").val(),
-     email: $("contactEmail").val(),
-     subject: $("contactSubject").val(),
-     message: $("contactMessage").val(),
+     name: document.getElementById("contactName").value,
+     email: document.getElementById("contactEmail").value,
+     subject: document.getElementById("contactSubject").value,
+     message: document.getElementById("contactMessage").value,
   }
 
   //Ajax method
