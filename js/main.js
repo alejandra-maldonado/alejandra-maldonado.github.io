@@ -225,7 +225,7 @@ $("#submitEmail").click(function(e){
      message: document.getElementById("contactMessage").value,
   }
   //Make sure you open this page through a web server, FormSubmit will not work in pages browsed as HTML files.
-  //Ajax method
+  //Ajax metho
   $.ajax({
       method: 'POST',
       url: 'https://formsubmit.co/ajax/maldonadol.alejandra@gmail.com',
