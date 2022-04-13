@@ -217,34 +217,43 @@
 	------------------------------------------------------ */
 
 $("#submitEmail").click(function(e){
-  e.preventDefault();
   let data = {
-     name: document.getElementById("contactName").value,
-     email: document.getElementById("contactEmail").value,
-     subject: document.getElementById("contactSubject").value,
-     message: document.getElementById("contactMessage").value,
+     name: $("#contactName").val(),
+     email: $("#contactEmail").val(),
+     subject: $("#contactSubject").val(),
+     message: $("#contactMessage").val(),
   }
+
+  let confirmData = true;
+
+
   //Make sure you open this page through a web server, FormSubmit will not work in pages browsed as HTML files.
   //Ajax metho
-  $.ajax({
-      method: 'POST',
-      url: 'https://formsubmit.co/ajax/maldonadol.alejandra@gmail.com',
-      dataType: 'json',
-      accepts: 'application/json',
-      data: data,
-      success: (data) => {
-        console.log(data)
-        if(data.success == "true"){
-          $("#success-email").css("display","block");
-          $("#error-email").css("display","none");
-        }
-        else{
-          $("#success-email").css("display","none");
-          $("#error-email").css("display","block");
-        }
-      },
-      error: (err) => console.log(err)
-  });
+  if(confirmData){
+    $.ajax({
+        method: 'POST',
+        url: 'https://formsubmit.co/ajax/maldonadol.alejandra@gmail.com',
+        dataType: 'json',
+        accepts: 'application/json',
+        data: data,
+        success: (data) => {
+          console.log(data)
+          if(data.success == "true"){
+            $("#success-email").css("display","block");
+            $("#error-email").css("display","none");
+            $("#contactName").val("");
+            $("#contactEmail").val("");
+            $("#contactSubject").val("");
+            $("#contactMessage").val("");
+          }
+          else{
+            $("#success-email").css("display","none");
+            $("#error-email").css("display","block");
+          }
+        },
+        error: (err) => console.log(err)
+    });
+  }
 })
 
 	/* local validation */
